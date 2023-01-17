@@ -1,0 +1,82 @@
+.image {
+    background-color: rgba(235, 235, 235, 0.719);
+    border-radius: 25%;
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 3rem;
+    border-bottom-left-radius: 3rem ;
+    border-bottom-right-radius: 3rem;
+    margin-top: 5vh;
+    width: 300px;
+    height: 250px;
+    padding: 3px;
+    position: relative;
+    left: 100px;
+}
+
+/* .card { 
+    color: white;
+   display: grid;
+   flex-wrap: flex;
+   justify-content: center;
+   text-align: center;
+   padding-right: 1vh;  
+    margin: 55vh auto;
+   margin-top: 10vh;
+   margin-bottom: 1vh;
+   padding: 1px; 
+   border-top: 15rem;
+   border-top-left-radius: 2rem;
+   border-top-right-radius: 1rem;
+   border-bottom-left-radius: 2rem ;
+   border-bottom-right-radius: 1rem;
+}  */
+
+/* .card {
+    color: white;
+    display: grid;
+    flex-wrap: flex;
+    justify-content: center;
+    text-align: center;
+     margin: 55vh auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    opacity: 0.75;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem ;
+    border-bottom-right-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.316);
+    background-position: center;
+    color: rgba(red, green, blue, alpha);
+    box-shadow: inset 3px 3px 5px #ffffff, 0px 0px 10px rgb(255, 255, 255);
+    opacity: 1;
+}
+ */
+
+
+ .card {
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    /* margin: 0 auto; */
+    /* margin-top: auto; */
+    padding: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    display: grid;
+    flex-wrap: flex;
+    justify-content: center;
+    text-align: center;
+     margin: 55vh auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    opacity:1;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem ;
+    border-bottom-right-radius: 1rem;
+    background-color: rgba(85, 6, 6, 0.316);
+    background-position: center;
+    /* box-shadow: inset 3px 3px 5px #ffffff, 0px 0px 10px rgb(255, 255, 255); */
+    opacity: 1;
+ }

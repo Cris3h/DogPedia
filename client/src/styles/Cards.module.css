@@ -1,0 +1,20 @@
+.image {
+    background-color: rgba(235, 235, 235, 0.719);
+    border-radius: 25%;
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 3rem;
+    border-bottom-left-radius: 3rem ;
+    border-bottom-right-radius: 3rem;
+    margin-top: 5vh;
+    width: 300px;
+    height: 250px;
+}
+
+
+.cards:hover {
+    background-color: rgba(255, 255, 255, 0.316);
+    background-position: center;
+    color: rgba(red, green, blue, alpha);
+    box-shadow: inset 3px 3px 5px #ffffff, 0px 0px 10px rgb(255, 255, 255);
+    opacity: 1;
+  }

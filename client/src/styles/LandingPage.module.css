@@ -1,0 +1,63 @@
+.landing{
+    background-image: url('../images/land3.webp');
+    background-size:cover ;
+    background-repeat: no-repeat;
+   display: flex;
+   flex-direction: column;
+   align-items: center  ;
+   justify-content: space-around;
+   align-content: center;
+   height: 100vh;
+   text-align: center
+}
+
+.title {
+    font: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    margin-top: -5vh;
+    color: rgb(13, 153, 246);
+    border: solid;
+    border-style:double ;
+    border-color: antiquewhite,;
+    box-shadow: inset 0px 3px 5px rgb(255, 255, 255), 0px 0px 10px rgb(255, 255, 255);
+    
+}
+
+.extra {
+    font: bold; 
+    font-style: italic;
+    color: rgb(231, 134, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    margin-bottom: 1vh;
+    opacity: 10;
+
+}
+
+.extra:hover {
+    box-shadow: inset 0px 3px 5px rgb(1, 105, 76), 0px 0px 10px rgb(2, 167, 48);
+}
+
+.btn{
+    display: inline-block;
+    padding: 0.5em 1.7em;
+    margin: 0 0.1em 0.1em 0;
+    /* border: 0.16em solid rgb(255, 255, 255); */
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    text-shadow: 0 0.04em 0.04em rgb(246, 246, 246);
+    text-align: center;
+    transition: all 0.2s;
+  }
+  
+  .btn:hover {
+    color: black;
+    background-color: rgb(255, 255, 255);
+  }

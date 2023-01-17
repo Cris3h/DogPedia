@@ -1,0 +1,37 @@
+.pages {
+    display: inline;
+    flex-direction: row;
+    /* justify-content: flex-start;
+    align-items: flex-end;
+    align-content: flex-end; */
+    font-family:Arial;
+    font-weight:bold;
+    font-size:15px;
+    top:0.45vh;
+    bottom: 045vh;
+  }
+  
+  .number {
+    display:inline;
+       padding-left:3px;
+       padding-right:3px;
+  }  
+  
+  
+  
+  .bn5 {
+    background-color: white;
+     border: rgb(0, 0, 0) 1px solid;
+    position:initial;
+    left: 20px;
+    padding: 0.6em 2em;
+    border: solid;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: #111;
+    cursor: pointer;
+    z-index: 0;
+    border-radius: 10px;
+    
+  }
+  
