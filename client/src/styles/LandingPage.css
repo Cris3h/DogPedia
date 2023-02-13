@@ -1,0 +1,76 @@
+.landing-container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-image: url(../images/bg-home-paws.jpg);
+  background-size: contain;
+}
+
+.image-landing {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  padding-top: 3rem;
+  justify-self: center;
+  border-radius: 3%;
+}
+
+.img-landing {
+  width: 35rem;
+  border-radius: 3%;
+}
+
+.section-landing-title {
+  grid-column: span 3;
+  align-self: start;
+  justify-self: center;
+  margin-top: 5rem;
+  filter: drop-shadow(5px 5px 10px #5469d4);
+}
+
+.landing-title {
+  color: var(--second-alpha-color);
+  font-size: 75px;
+}
+
+.landing-title-more {
+  color: var(--second-alpha-color);
+  font-size: large;
+  filter: drop-shadow(10px 10px 20px #5469d4);
+}
+
+.extras {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  padding-top: 4rem;
+  width: 15rem;
+  height: 2rem;
+  justify-self: end;
+}
+
+.extra {
+  padding: 1rem;
+}
+
+.landing-btn-container {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  align-self: end;
+  justify-self: end;
+  margin-bottom: 12rem;
+  margin-right: 4rem;
+}
+
+.landing-btn {
+  padding: 10px 20px;
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #5469d4;
+  transition: all 0.3s ease-in-out;
+}
+
+.landing-btn:hover {
+  background-color: #5469d4;
+  transform: translateY(-2px);
+}

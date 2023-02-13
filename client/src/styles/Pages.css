@@ -1,0 +1,108 @@
+.pages-container {
+  display: flex;
+  margin: 0.5rem;
+  align-content: center;
+  justify-content: center;
+}
+
+
+.pages-btn-container {
+  flex-direction: row;
+  margin: 2.5px;
+
+}
+
+.pages-btn {
+  background-color: #5469d4;
+  border: none;
+  color: var(--gray-color);
+  cursor: pointer;
+  padding: 0.3em 0.6em;
+  border-radius: 15%;
+  width: 3.5em;
+}
+
+
+.pages-btn:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(000, 000, 000);
+  outline: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+.pages-btn {
+  border: thin 0.1rem;
+  padding: 1px 32px;
+
+  padding: 1px 32px;
+  border-radius: 7px; 
+  outline: solid 1px black;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+
+ 
+}
+
+.pages-btn:hover{
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+ */
+
+/*
+  .bn5 {
+    background-color: white;
+     border: rgb(0, 0, 0) 1px solid;
+    position:initial;
+    left: 20px;
+    padding: 0.6em 2em;
+    border: solid;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: #111;
+    cursor: pointer;
+    z-index: 0;
+    border-radius: 10px;
+    
+  }
+
+.pages {
+    display: inline;
+    flex-direction: row;
+
+  COMENTADO 
+    justify-content: flex-start;
+    align-items: flex-end;
+    align-content: flex-end;
+ DEJA DE COMENTADO
+    
+    font-family:Arial;
+    font-weight:bold;
+    font-size:15px;
+    top:0.45vh;
+    bottom: 045vh;
+  }
+  
+  .number {
+    display:inline;
+       padding-left:3px;
+       padding-right:3px;
+  }  
+  
+  
+  
+
+   */

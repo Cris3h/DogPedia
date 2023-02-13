@@ -1,0 +1,35 @@
+.card {
+  display: grid;
+  grid-template-rows: 60% 35%;
+  gap: 5%;
+  padding: 2rem;
+  border-radius: 6%;
+  background-image: url('../images/paws-clean.jpg');
+  background-size: contain;
+}
+
+.card-img {
+  grid-row: 1/2;
+  align-self: center;
+  justify-self: center;
+}
+
+.card-info {
+  grid-row: 2/3;
+  height: auto;
+  align-self: center;
+  justify-self: center;
+  background-color: #8293e9;
+  border-radius: 6%;
+}
+
+.card-info h5 {
+  margin: 0.4rem;
+}
+
+.img-home {
+  width: 25rem;
+  /* height: 10rem; */
+  max-height: 18rem;
+  border-radius: 3%;
+}

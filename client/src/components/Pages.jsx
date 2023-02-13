@@ -1,5 +1,5 @@
 import React from "react";
-import * as style from '../styles/Pages.module.css'
+import '../styles/Pages.css'
 
 const Pages = ({ dogPerPage, allDogs, pages }) => {
     const pageNumber = []
@@ -9,17 +9,16 @@ const Pages = ({ dogPerPage, allDogs, pages }) => {
     }
 
     return (
-        <nav className={style.pages}>
-            <span >
+        <div className='pages-container'>
                 {
                     pageNumber && pageNumber.map((number, index) => (
-                        <div className={style.number} key={index}>
-                            <button className={style.bn5}  onClick={() => pages(number)}>{number}</button>
+                        <div className='pages-btn-container' key={index}>
+                            <button className='pages-btn' onClick={() => pages(number)}>{number}</button>
                         </div>
                     ))
                 }
-            </span>
-        </nav>
+
+        </div>
     )
 }
 

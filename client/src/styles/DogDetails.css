@@ -1,16 +1,82 @@
-.image {
-    background-color: rgba(235, 235, 235, 0.719);
-    border-radius: 25%;
-    border-top-left-radius: 0.4rem;
-    border-top-right-radius: 3rem;
-    border-bottom-left-radius: 3rem ;
-    border-bottom-right-radius: 3rem;
-    margin-top: 5vh;
-    width: 300px;
-    height: 250px;
-    padding: 3px;
-    position: relative;
-    left: 100px;
+.detail-card-container {
+  display: grid;
+  grid-template-columns: 15% 65% 20%;
+  grid-template-rows: 10% 80% 10%;
+  height: 100vh;
+  width: auto;
+  justify-items: center;
+  background-image: url(../images/bg-home-paws.jpg);
+  background-size: contain;
+}
+
+.return-btn {
+  margin: 1rem 2rem;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+/*DETAIL CONTAINER*/
+.card-detail-data {
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  margin-top: 3rem;
+  grid-template-rows: 45% 10% 10% 35%;
+  justify-items: center;
+  align-items: center;
+  width:auto;
+  background-image: url(../images/paws-clean.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: solid 2px var(--first-alpha-color);
+  border-radius: 6%;
+}
+
+/*CARD DETAIL IMG*/
+.card-detail-img {
+  grid-row: 1/2;
+}
+.img-detail {
+  width: 350px;
+  padding: 3rem;
+  border-radius: 18%;
+}
+
+/*CARD DETAIL INFO*/
+
+.card-detail-breed {
+  grid-row: 2/3;
+  border-bottom:  solid var(--first-color);
+  margin-bottom: 15px;
+  color: var(--title-color);
+}
+
+.card-detail-temps {
+  grid-row: 3/4;
+  border-bottom:  solid var(--first-color);
+  color: var(--title-color);
+}
+
+.card-detail-more {
+  grid-row: 4/5;
+  color: var(--title-color);
+  margin: 0.7rem;
+}
+
+/* HOVERS */
+.card-detail-img:hover{
+    filter: drop-shadow(5px 5px 10px #000);
+}
+
+.card-detail-breed:hover{
+    filter: drop-shadow(5px 5px 10px #000);
+}
+
+.card-detail-temps:hover{
+    filter: drop-shadow(5px 5px 10px #000);
+}
+.card-detail-more:hover{
+    filter: drop-shadow(5px 5px 10px #000);
 }
 
 /* .card { 
@@ -53,12 +119,10 @@
 }
  */
 
-
- .card {
+/* .card {
     grid-column-gap: 5px;
     grid-row-gap: 5px;
-    /* margin: 0 auto; */
-    /* margin-top: auto; */
+
     padding: auto;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
@@ -77,6 +141,7 @@
     border-bottom-right-radius: 1rem;
     background-color: rgba(85, 6, 6, 0.316);
     background-position: center;
-    /* box-shadow: inset 3px 3px 5px #ffffff, 0px 0px 10px rgb(255, 255, 255); */
     opacity: 1;
- }
+} */
+
+/* box-shadow: inset 3px 3px 5px #ffffff, 0px 0px 10px rgb(255, 255, 255); */

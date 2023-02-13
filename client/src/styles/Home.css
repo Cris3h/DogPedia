@@ -1,0 +1,98 @@
+.home-container {
+  display: grid;
+  /* grid-template-rows: 20% 20% 10% 50; */
+  background-image: url("../images/bg-home-paws.jpg");
+  background-size:cover;
+}
+
+.nav-bar {
+  grid-row: 1/2;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.search-bar {
+  justify-self: center;
+  align-self: center;
+}
+
+.reload-btn {
+  justify-self: start;
+  align-self: center;
+  padding-left: 2rem;
+}
+
+.create-btn {
+  padding-right: 2rem;
+  justify-self: end;
+  align-self: center;
+}
+
+.btn {
+  border: 0;
+  outline: 1px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(84, 105, 212);
+  box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px,
+    rgb(0 0 0 / 12%) 0px 1px 1px 0px, rgb(84 105 212) 0px 0px 0px 1px,
+    rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px,
+    rgb(60 66 87 / 8%) 0px 2px 5px 0px;
+  border-radius: 4px;
+  padding: 4px 8px;
+  min-height: 28px;
+  text-decoration: none;
+}
+.btn:hover {
+  box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px,
+    rgb(0 0 0 / 12%) 0px 1px 1px 0px, rgb(84 105 212) 0px 0px 0px 1px,
+    rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 8%) 0px 3px 9px 0px,
+    rgb(60 66 87 / 8%) 0px 2px 5px 0px;
+}
+
+.container-filters {
+  display: grid;
+  grid-row: 2/3;
+  grid-template-columns: repeat(4, 1fr);
+  align-content: center;
+  margin: 0.75rem 2rem;
+  padding: 0.75rem 2rem;
+}
+
+.div-sort {
+  justify-self: center;
+  box-shadow: inset 0px 3px 5px #5469d4, 0px 0px 10px #5469d4;
+}
+
+.div-filter {
+  justify-self: center;
+  box-shadow: inset 0px 3px 5px #5469d4, 0px 0px 10px #5469d4;
+}
+
+.cards-container {
+  display: grid;
+  grid-row: 4/5;
+  grid-template-columns: repeat(4, 1fr);
+  flex-wrap: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.cards {
+  margin: 1rem 2rem;
+}
+
+.pages-container {
+  grid-row: 3/4;
+}
+
+.select-home{
+  appearance: none;
+  padding: 5px 10px;
+  border: solid 2px #5469d4;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #a1aef1;
+
+}
